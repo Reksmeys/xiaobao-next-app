@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function ProductGallery({products}){
     return(
         <>
@@ -7,7 +9,9 @@ export function ProductGallery({products}){
             {
                 products.map((product) => (
                     <div>
+                        <Link href={`/products/${product.id}`}>
                         <img class="h-auto max-w-full rounded-lg" src={product.images[0]} alt="" />
+                        </Link>
                     </div>
                 ))
             }  
