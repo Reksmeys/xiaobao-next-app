@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'ISTAD - Home',
-  description: 'Listing all products you want!',
+  description: 'Advanced IT Institute',
   keywords: ["IT", "Spring", "Java", "IT school", "Advanced IT Institute", "AI", "Cybersecurity", "DevOps", "Data Analytics"],
   openGraph:{
     images: "https://api.istad.co/media/image/21a31c2d-181b-4ee0-aed9-61dfb8a09757.jpg"
