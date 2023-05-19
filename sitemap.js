@@ -8,7 +8,7 @@ export default async function sitemap(){
         lastModified: new Date().toISOString()
     }))
     const routes = ['', '/about', '/products'].map((route) => ({
-        url: `localhost:3000/${route}`,
+        url: `https://xiaobao-next-app.vercel.app/${route}`,
         lastModified: new Date().toISOString()
     }))
     return [...routes, ...products]
