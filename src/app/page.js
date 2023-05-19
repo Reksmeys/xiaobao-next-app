@@ -8,6 +8,8 @@ import { ProductGallery } from './components/Gallery'
 import { Navbar } from './components/Navbar'
 import { Partner } from './components/Partner'
 
+
+
 export default async function Home() {
   const products = await fetchProducts()
   const categories = await fetchCategories()
