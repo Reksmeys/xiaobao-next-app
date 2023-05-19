@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Team from "../team/page";
 
 export const metadata = {
     title: "ISTAD - about",
@@ -43,6 +44,8 @@ export default function About(){
                     </div>
                 </figcaption>
             </figure>
+            <Team />
         </main>
+
     )
 }
